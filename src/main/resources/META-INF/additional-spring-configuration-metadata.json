@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "translation.completed.key",
+      "type": "java.lang.String",
+      "description": "Description for translation.completed.key."
+  }
+] }

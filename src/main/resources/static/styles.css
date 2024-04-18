@@ -1,0 +1,66 @@
+#welcome{
+    text-align: center;
+    margin-top: 2px;
+    color: #5454e7;
+}
+body{
+    background-image: url("image/135268-hristianstvo-cvetochnyj_dizajn-zhenshhina-rozovyj-rastenie-1920x1080.jpg");
+    background-attachment: fixed;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#world{
+    background: rgba(161, 152, 152, 0.59);
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+#world:hover{
+    background: rgba(194, 140, 243, 0.4);
+}
+#nick{
+    background: rgba(161, 152, 152, 0.59);
+    margin-left: 11px;
+    margin-bottom: 5px;
+
+}
+#nick:hover{
+    background: rgba(194, 140, 243, 0.4);
+
+}
+form{
+    color: #00ffae;
+    margin: 10px;
+}
+#menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: block;
+}
+#sub{
+margin-top: 10px;
+    position: relative;
+    left: 90px;
+    font-family: inherit;
+    border: none;
+    outline: 1px dotted rgb(37, 37, 37);
+    outline-offset: -4px;
+    background: hsl(0deg 0% 75%);
+    box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 30px;
+}
+#sub:active{
+    box-shadow: inset -1px -1px #fff, inset 1px 1px #292929,
+    inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+}
+#text-stat{
+    margin-top: 2px;
+    color: #02c4ff;
+}
+#stats{
+    color: #ff0000;
+}
