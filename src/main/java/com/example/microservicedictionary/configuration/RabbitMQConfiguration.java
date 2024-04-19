@@ -1,3 +1,4 @@
+
 package com.example.microservicedictionary.configuration;
 
 import org.springframework.amqp.core.TopicExchange;

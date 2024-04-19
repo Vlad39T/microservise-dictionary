@@ -64,3 +64,8 @@ margin-top: 10px;
 #stats{
     color: #ff0000;
 }
+.dictionary-word{
+    color: white;
+    background: brown;
+    display: inline-block;
+}

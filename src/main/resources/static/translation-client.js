@@ -1,3 +1,4 @@
+
 function updateStats(nickname) {
     $.ajax({
         url: "http://localhost:8080/results?nickname=" + nickname

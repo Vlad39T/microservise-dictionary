@@ -1,3 +1,4 @@
+
 package com.example.microservicedictionary.entity;
 
 import jakarta.persistence.*;
@@ -18,11 +19,11 @@ public class TranslationResultAttempt {
     private Long id;
 
     @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "USER_ID")
     private final User user;
 
     @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "word_id")
+    @JoinColumn(name = "WORD_ID")
     private final Dictionary dictionary;
 
     private final String resultAttempt;
